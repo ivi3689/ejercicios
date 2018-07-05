@@ -1,0 +1,118 @@
+/* mobile first */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;  
+}
+
+.wrapper{
+	max-width: 980px;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+.wrapper header{
+	background-color: #34495e;
+	border-radius: 10px;
+	height: 70px;
+}
+
+.wrapper main{
+	border-radius: 10px;
+	margin: 20px 0px;
+}
+
+.wrapper main section{
+	border-radius: 10px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.wrapper main .primary{
+	background-color: lightblue;
+}
+
+.wrapper main .secondary{
+	background-color: lightgreen;
+}
+
+.wrapper main .extra{
+	background-color: red;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+.wrapper footer{
+	background-color: tomato;
+	height: 70px;
+	border-radius: 10px;
+}
+
+@media(min-width: 430px) {
+
+
+	.wrapper main section{
+		float: left;
+	}
+	.wrapper main .primary{
+	
+	width: 58%;
+	margin-bottom: none;
+	margin-right: 2%;
+
+	}
+
+	.wrapper main .secondary{
+	
+	width: 40%;
+	margin-bottom: 10px;
+
+	height: 140px;
+	
+	}
+
+	.wrapper main .extra{
+	
+	width: 40%;
+	margin-top: 10px;
+	height: 140px;
+	
+	}
+
+	main:after{
+		content: "";
+		clear: both;
+		display: block;
+		height: 0;
+	}
+	
+}
+
+@media(min-width: 800px) {
+
+	.wrapper main .primary{
+	
+		width: 48%;
+	}
+
+	.wrapper main .secondary{
+		width: 30%;
+		height: 300px;
+		
+	}
+
+	.wrapper main .extra{
+		display: block;
+		width: 18%;
+		margin-left: 2%;
+		height: 300px;
+		margin-top: 0;
+
+	}
+}

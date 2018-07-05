@@ -1,0 +1,13 @@
+body{
+	background-image: url('../images/perros1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+@media(max-width: 425px){
+	body{
+		background-image: url('../images/perro2.jpg');
+	}
+
+}

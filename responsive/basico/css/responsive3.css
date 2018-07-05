@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.row{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.col{
+	background-color: black;
+	height: 70px;
+	margin: 10px 0px;
+}
+
+@media(min-width: 800px){
+
+	.col{
+		width: 46%;
+		float: left;
+		margin: 10px 2%;
+	}
+
+
+
+
+
+}
