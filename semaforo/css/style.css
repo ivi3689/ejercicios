@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.semaforo{
+	width: 400px;
+	margin: 40px auto;
+	height: 700px;
+
+}
+
+.semaforo .semicirculo{
+	background-color: darkgreen;
+	width: 100px;
+	height: 40px;
+	border-top-left-radius:150px;
+	border-top-right-radius:150px;
+	margin: 0 auto;
+}
+
+.semaforo .cabecera{
+	width: 200px;
+	height: 20px;
+	background-color: darkgreen;
+	margin: 0 auto;
+}
+
+.semaforo .cuerpo{
+	height: 500px;
+	width: 300px;
+	background-color: darkgreen;
+	margin: 0 auto;
+	padding: 10px;
+
+}
+
+.semaforo .cuerpo .rojo{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	background-color: red;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.semaforo .cuerpo .verde{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	background-color: green;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.semaforo .cuerpo .amarillo{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	background-color: yellow;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+.semaforo .palo{
+	height: 200px;
+	width: 30px;
+	background-color: darkgreen;
+		margin: 0 auto;
+}
+
+.semaforo .pie{
+	height: 20px;
+	width: 300px;
+	background-color: darkgreen;
+		margin: 0 auto;
+}
