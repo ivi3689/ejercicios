@@ -1,0 +1,145 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+body{background-color: #444}
+
+.campo{
+	width: 400px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: green;
+	position: relative;
+}
+
+.mitadcampo{
+	height: 400px;
+	border: 3px solid white;
+}
+
+.mitadcampo .area{
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+	margin: 0 auto;
+}
+
+.mitadcampo .areagrande{
+	width: 75%;
+	height: 150px;
+	background-color: green;
+	position: relative;
+}
+
+.mitadcampo .areagrande .areapeq{
+	width: 50%;
+	height: 50px;
+}
+
+
+.mitadcampo .semicirculo{
+	width: 140px;
+	height: 140px;
+	border: 3px solid white;
+	margin: 0 auto;
+	border-radius: 70px;
+	margin-top: -70px;
+}
+
+.campo .rotacion{
+	transform: rotateZ(180deg);
+	border-bottom: none; 
+}
+
+.campo .circulocentral{
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+	border: 3px solid white;
+	margin: 0 auto;
+	position:absolute;
+	top: 330px;
+	left: 130px;
+}
+
+.campo .jugador{
+	background-image: url('../images/camiseta.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	font-family: Arial;
+}
+
+.campo .jugador span{
+	display: none;
+}
+
+.campo .jugador:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px 0px;
+}
+
+.campo .jugador:hover span{
+	display: inline;
+}
+
+#delantero1{
+	top: 70px;
+	left: 70px;
+}
+
+#delantero2{
+	top: 70px;
+	left: 280px;
+}
+
+#medio1{
+	top: 340px;
+	left: 20px;
+}
+
+#medio2{
+	top: 340px;
+	left: 120px;
+}
+
+#medio3{
+	top: 340px;
+	left: 220px;
+}
+
+#medio4{
+	top: 340px;
+	left: 320px;
+}
+
+#defensa1{
+	top: 600px;
+	left: 20px;
+}
+
+#defensa2{
+	top: 600px;
+	left: 120px;
+}
+
+#defensa3{
+	top: 600px;
+	left: 220px;
+}
+
+#defensa4{
+	top: 600px;
+	left: 320px;
+}
+
+
+#portero{
+	bottom: 20px;
+	left: 175px;
+}
+
+
+
+
