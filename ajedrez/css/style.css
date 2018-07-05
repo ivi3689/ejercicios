@@ -1,0 +1,32 @@
+body{
+	background: grey;
+}
+
+.tablero{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.tablero div{
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+.tablero .impar div:nth-child(even){
+	background-color: white;
+}
+
+.tablero .impar div:nth-child(odd){
+	background-color: black;
+}
+
+
+.tablero .par div:nth-child(even){
+	background-color: black;
+}
+
+.tablero .par div:nth-child(odd){
+	background-color: white;
+}
