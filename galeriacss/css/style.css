@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.wrapper{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.columna{
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+#foto1{
+	top:0;
+}
+
+#foto2, #foto4{
+	top:200px;
+}
+
+#foto3, #foto4{
+	left: 200px;
+}
+
+.columna:hover{
+	width: 100%;
+	z-index: 1;
+	transition: 1s;
+}
+
+#foto1:hover, #foto2:hover, #foto3:hover, #foto4:hover{
+	top: 0;
+	left: 0;
+} 
+
+
